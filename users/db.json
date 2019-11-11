@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": 11,
+      "name": "lol 123",
+      "email": "qwedxza@sdf.jh",
+      "phone": "465675647686",
+      "username": "pop"
+    },
+    {
+      "id": 12,
+      "name": "Макс1",
+      "email": "test_providerpl@ukr.net",
+      "phone": "+38 062 123-43-54",
+      "username": "admin"
+    }
+  ]
+}
