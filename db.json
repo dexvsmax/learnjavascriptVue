@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "lol 123",
+      "email": "qwedxza@sdf.jh",
+      "phone": "465675647686",
+      "username": "pop"
+    },
+    {
+      "id": 2,
+      "name": "Макс",
+      "email": "test_providerpl@ukr.net",
+      "phone": "+38 062 123-43-54",
+      "username": "admin",
+      "avatar": "https://i.imgur.com/wgpbMJA.jpg",
+      "created_at": "2019-11-19 21:48",
+      "description": "<p>adsdfadf</p>",
+      "active": true
+    },
+    {
+      "id": 4,
+      "name": "Макс4",
+      "email": "test_providerpl@ukr.net",
+      "phone": "+38 062 123-43-54",
+      "username": "admin"
+    },
+    {
+      "name": "1",
+      "username": "111",
+      "email": "admin1@ua-tenders.com",
+      "phone": "1",
+      "id": 5
+    },
+    {
+      "avatar": "https://i.imgur.com/6qdMtee.jpg",
+      "id": 6
+    },
+    {
+      "id": 7
+    }
+  ],
+  "phones": [
+    {
+      "id": 1,
+      "name": "Дима",
+      "phone": "465675647686"
+    },
+    {
+      "id": 2,
+      "name": "Макс",
+      "phone": "+38 062 123-43-54"
+    },
+    {
+      "id": 4,
+      "name": "Вася",
+      "phone": "+38 062 123-43-54"
+    },
+    {
+      "id": 5,
+      "name": "Петя",
+      "phone": "+38 062 123-43-54"
+    }
+  ]
+}
