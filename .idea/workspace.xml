@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77bdda02-288e-4f29-bf65-8ad2a33a73e4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Vue.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Vue.iml" afterDir="false" />
+    <list default="true" id="77bdda02-288e-4f29-bf65-8ad2a33a73e4" name="Default" comment="add server realization">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/add.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/db.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/list.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UserList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Users.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Users.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +30,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="server" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1TkQsNNpH0iQXVnJqaR2jsZsTTs" />
@@ -115,8 +113,23 @@
       <option name="presentableId" value="Default" />
       <updated>1573415594771</updated>
       <workItem from="1573415597860" duration="12052000" />
-      <workItem from="1574001821221" duration="5268000" />
+      <workItem from="1574001821221" duration="5489000" />
     </task>
+    <task id="LOCAL-00001" summary="add">
+      <created>1574202654742</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574202654742</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add server realization">
+      <created>1574202713120</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574202713120</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,5 +145,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add" />
+    <MESSAGE value="add server realization" />
+    <option name="LAST_COMMIT_MESSAGE" value="add server realization" />
   </component>
 </project>

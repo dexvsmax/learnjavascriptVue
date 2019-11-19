@@ -87,39 +87,26 @@ export default {
     currentPage: 1,
     searchString: ''
   }),
-  watch: {
-    searchString: 'search',
-    perPage: 'paginate',
-    currentPage: 'paginate'
-  },
   computed: {
     total() {
       return this.filteredUsers.length
     },
     filteredUsers() {
-      return this.users
-      // if (!this.searchString.length) return this.users
+      if (!this.searchString.length) return this.users
 
-      // return this.users.filter(item => {
-      //   return item.name.indexOf(this.searchString) >= 0
-      // })
+      return this.users.filter(item => {
+        return item.name.indexOf(this.searchString) >= 0
+      })
     },
     sortedUsers() {
-      return this.users
-      // return this.filteredUsers.filter((item, index) => {
-      //   var startIndex = (this.currentPage - 1) * this.perPage
-      //   var finalIndex = startIndex + this.perPage
-      //   return startIndex <= index && index < finalIndex
-      // })
+      return this.filteredUsers.filter((item, index) => {
+        var startIndex = (this.currentPage - 1) * this.perPage
+        var finalIndex = startIndex + this.perPage
+        return startIndex <= index && index < finalIndex
+      })
     }
   },
   methods: {
-    paginate: function() {
-      this.$emit('paginate', this.currentPage, this.perPage)
-    },
-    search: function() {
-      this.$emit('search', this.searchString)
-    },
     remove: function(id) {
       this.$emit('remove', id)
     }

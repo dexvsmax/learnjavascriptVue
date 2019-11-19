@@ -4,7 +4,7 @@
     <div v-if="!users.length" class="alert alert-warning">
       Loading...
     </div>
-    <user-list v-else :users="users" @remove="removeUser" @search="search" @paginate="paginate" />
+    <user-list v-else :users="users" @remove="removeUser" />
   </div>
 </template>
 
@@ -19,21 +19,12 @@ export default {
   data: function() {
     return {
       token: null,
-      users: [],
-      searchString: '',
-      perPage: 5,
-      currentPage: 1,
-      query: ''
+      users: []
     }
-  },
-  watch: {
-    searchString: 'generateQuery',
-    perPage: 'generateQuery',
-    currentPage: 'generateQuery'
   },
   mounted: function() {
     this.setToken()
-    this.loadData('')
+    this.loadData()
   },
   methods: {
     setToken() {
@@ -49,7 +40,7 @@ export default {
         Authorization: 'Bearer ' + this.token
       }
       axios
-        .get('http://localhost:3000/users' + this.query, { headers })
+        .get('http://localhost:3000/users', { headers })
         .then(response => (this.users = response.data))
     },
     removeUser: function(id) {
@@ -58,32 +49,6 @@ export default {
           return item.id !== id
         }))
       )
-    },
-    generateQuery() {
-      this.query = ''
-      if (this.searchString.length > 0) {
-        this.query += '&q=' + this.searchString
-      }
-      if (this.currentPage > 0) {
-        this.query += '&_page=' + this.currentPage
-      }
-      if (this.perPage > 0) {
-        this.query += '&_limit=' + this.perPage
-      }
-      if (this.query.length > 0) {
-        this.query = '?' + this.query.slice(1)
-      }
-    },
-    search(s) {
-      this.searchString = s
-      this.generateQuery()
-      this.loadData()
-    },
-    paginate(currentPage, perPage) {
-      this.currentPage = currentPage
-      this.perPage = perPage
-      this.generateQuery()
-      this.loadData()
     }
   }
 }
