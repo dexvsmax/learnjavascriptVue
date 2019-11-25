@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77bdda02-288e-4f29-bf65-8ad2a33a73e4" name="Default" comment="add server realization">
+    <list default="true" id="77bdda02-288e-4f29-bf65-8ad2a33a73e4" name="Default" comment="add search and pagination by js">
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.json" beforeDir="false" afterPath="$PROJECT_DIR$/db.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UserList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UserList.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Users.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Users.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -113,7 +116,9 @@
       <option name="presentableId" value="Default" />
       <updated>1573415594771</updated>
       <workItem from="1573415597860" duration="12052000" />
-      <workItem from="1574001821221" duration="5489000" />
+      <workItem from="1574001821221" duration="5643000" />
+      <workItem from="1574330928299" duration="160000" />
+      <workItem from="1574684600043" duration="1073000" />
     </task>
     <task id="LOCAL-00001" summary="add">
       <created>1574202654742</created>
@@ -129,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574202713120</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add search and pagination by js">
+      <created>1574203046517</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574203046517</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,7 +152,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -149,6 +163,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add" />
     <MESSAGE value="add server realization" />
-    <option name="LAST_COMMIT_MESSAGE" value="add server realization" />
+    <MESSAGE value="add search and pagination by js" />
+    <option name="LAST_COMMIT_MESSAGE" value="add search and pagination by js" />
   </component>
 </project>

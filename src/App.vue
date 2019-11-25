@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <router-link class="navbar-brand" to="/">Home</router-link>
+      <router-link class="navbar-brand" to="/">{{ title }}</router-link>
       <button
         class="navbar-toggler"
         type="button"
@@ -33,6 +33,17 @@
     </main>
   </div>
 </template>
+
+<script>
+export default {
+  name: 'App',
+  computed: {
+    title() {
+      return this.$store.state.navbarTitle + ' ' + this.$store.getters.titleCount
+    }
+  }
+}
+</script>
 
 <style>
 #app {
